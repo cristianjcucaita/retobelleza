@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="25dp">
+
+    <TextView
+        android:id="@+id/textHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/color2"
+        android:fontFamily="@font/philosopher_bold"
+        android:padding="3dp"
+        android:text="Bienvenidos a nuestra App de Belleza" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/color3"
+        android:fontFamily="@font/philosopher_bold"
+        android:padding="3dp"
+        android:text="Información general de la tienda:" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/color5"
+        android:fontFamily="@font/philosopher"
+        android:padding="3dp"
+        android:text="Tienda que ofrece a sus clientes los mejores produtos de Belleza que puedas encontrar en el mercado." />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/color3"
+        android:fontFamily="@font/philosopher_bold"
+        android:padding="5dp"
+        android:text="Información de contacto:" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/color5"
+        android:fontFamily="@font/philosopher"
+        android:padding="3dp"
+        android:text="Direccion: Cra 56 # 90 - 15" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/color5"
+        android:fontFamily="@font/philosopher"
+        android:padding="3dp"
+        android:text="Telefonos: 3216500 - 3220557036" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/color5"
+        android:fontFamily="@font/philosopher"
+        android:padding="3dp"
+        android:text="Correo: beaauty515@gmail.com" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/botonGET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/philosopher"
+        android:text="GET" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/mostrarJSON"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/philosopher"
+                android:text="Aqui.. se va ha mostrar el {JSON}" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

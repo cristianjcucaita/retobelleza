@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/id_productos"
+        android:icon="@mipmap/ic_launcher_round"
+        android:title="@string/productos" />
+    <item
+        android:id="@+id/id_servicios"
+        android:title="@string/servicios" />
+    <item
+        android:id="@+id/id_sucursales"
+        android:title="@string/sucursales" />
+</menu>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/text_servicios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color3"
+        android:fontFamily="@font/philosopher_bold"
+        android:padding="3dp"
+        android:text="SERVICIOS"
+        android:textAlignment="center"
+        android:textSize="24sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <!--Caja servicio 1-->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/image7"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:foreground="@drawable/img7"
+                    android:padding="20dp"
+                    tools:src="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/textImage7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:padding="10dp"
+                    android:scrollbarSize="10dp"
+                    android:text="Maquillaje: Te ayudamos en colocar tu maquillaje y productos de couidado facial para tu bienestar."
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="21dp" />
+
+            <!--Caja servicio 2-->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/image8"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:foreground="@drawable/img8"
+                    android:padding="20dp"
+                    tools:src="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/textImage8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:padding="10dp"
+                    android:scrollbarSize="10dp"
+                    android:text="Manicure y Pericure: Te realizamos el arreglo de uñas tanto en manos y para pies de acuerdo a tus gustos."
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="21dp" />
+
+            <!--Caja servicio 3-->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/image9"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:foreground="@drawable/img9"
+                    android:padding="20dp"
+                    tools:src="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/textImage9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/philosopher"
+                    android:padding="10dp"
+                    android:scrollbarSize="10dp"
+                    android:text="Masaje y cuidado de piel: Te proporcionamos el cuidado de tu piel y tu cuerpo con nuestros sistemas de masaje corporal y masajes faciales."
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="21dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout><?xml version="1.0" encoding="utf-8"?>
